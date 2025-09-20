@@ -76,8 +76,8 @@ jobs:
 
           if [[ -f "app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned-signed.apk" ]]; then
             mv app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned-signed.apk TachiyomiAT-${{ env.VERSION_TAG }}.apk
-          elif [[ -f "app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned-aligned.apk" ]]; then
-            mv app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned-aligned.apk TachiyomiAT-${{ env.VERSION_TAG }}.apk
+          #elif [[ -f "app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned-aligned.apk" ]]; then
+          #  mv app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned-aligned.apk TachiyomiAT-${{ env.VERSION_TAG }}.apk
           elif [[ -f "app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned.apk" ]]; then
             mv app/build/outputs/apk/standard/release/app-standard-universal-release-unsigned.apk TachiyomiAT-${{ env.VERSION_TAG }}.apk
           fi
@@ -86,8 +86,8 @@ jobs:
 
           if [[ -f "app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned-signed.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned-signed.apk TachiyomiAT-arm64-v8a-${{ env.VERSION_TAG }}.apk
-          elif [[ -f "app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned-aligned.apk" ]]; then
-            cp app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned-aligned.apk TachiyomiAT-arm64-v8a-${{ env.VERSION_TAG }}.apk
+          #elif [[ -f "app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned-aligned.apk" ]]; then
+          #  cp app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned-aligned.apk TachiyomiAT-arm64-v8a-${{ env.VERSION_TAG }}.apk
           elif [[ -f "app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-arm64-v8a-release-unsigned.apk TachiyomiAT-arm64-v8a-${{ env.VERSION_TAG }}.apk
           fi
@@ -96,8 +96,8 @@ jobs:
 
           if [[ -f "app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned-signed.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned-signed.apk TachiyomiAT-armeabi-v7a-${{ env.VERSION_TAG }}.apk
-          elif [[ -f "app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned-aligned.apk" ]]; then
-            cp app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned-aligned.apk TachiyomiAT-armeabi-v7a-${{ env.VERSION_TAG }}.apk
+          #elif [[ -f "app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned-aligned.apk" ]]; then
+          #  cp app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned-aligned.apk TachiyomiAT-armeabi-v7a-${{ env.VERSION_TAG }}.apk
           elif [[ -f "app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-armeabi-v7a-release-unsigned.apk TachiyomiAT-armeabi-v7a-${{ env.VERSION_TAG }}.apk
           fi
@@ -106,8 +106,8 @@ jobs:
 
           if [[ -f "app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned-signed.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned-signed.apk TachiyomiAT-x86-${{ env.VERSION_TAG }}.apk
-          elif [[ -f "app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned-aligned.apk" ]]; then
-            cp app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned-aligned.apk TachiyomiAT-x86-${{ env.VERSION_TAG }}.apk
+          #elif [[ -f "app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned-aligned.apk" ]]; then
+          #  cp app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned-aligned.apk TachiyomiAT-x86-${{ env.VERSION_TAG }}.apk
           elif [[ -f "app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-x86-release-unsigned.apk TachiyomiAT-x86-${{ env.VERSION_TAG }}.apk
           fi
@@ -116,8 +116,8 @@ jobs:
           
           if [[ -f "app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned-signed.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned-signed.apk TachiyomiAT-x86_64-${{ env.VERSION_TAG }}.apk
-          elif [[ -f "app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned-aligned.apk" ]]; then
-            cp app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned-aligned.apk TachiyomiAT-x86_64-${{ env.VERSION_TAG }}.apk
+          #elif [[ -f "app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned-aligned.apk" ]]; then
+          #  cp app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned-aligned.apk TachiyomiAT-x86_64-${{ env.VERSION_TAG }}.apk
           elif [[ -f "app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned.apk" ]]; then
             cp app/build/outputs/apk/standard/release/app-standard-x86_64-release-unsigned.apk TachiyomiAT-x86_64-${{ env.VERSION_TAG }}.apk
           fi
