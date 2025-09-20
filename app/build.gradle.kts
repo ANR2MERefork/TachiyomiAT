@@ -209,8 +209,8 @@ dependencies {
     implementation(androidx.viewpager)
     implementation(androidx.profileinstaller)
 
-    implementation "androidx.window:window:*"
-    implementation "androidx.window:window-extensions:*"
+    implementation("androidx.window:window:1.4.0")
+    implementation("androidx.window:window-extensions:1.3.0")
 
     implementation(androidx.bundles.lifecycle)
 
