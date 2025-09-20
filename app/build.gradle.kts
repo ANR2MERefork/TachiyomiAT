@@ -61,8 +61,8 @@ android {
             isPseudoLocalesEnabled = true
         }
         named("release") {
-            isShrinkResources = true
-            isMinifyEnabled = true
+            isShrinkResources = false
+            isMinifyEnabled = false
             proguardFiles("proguard-android-optimize.txt", "proguard-rules.pro")
         }
         create("preview") {
@@ -209,9 +209,9 @@ dependencies {
     implementation(androidx.viewpager)
     implementation(androidx.profileinstaller)
 
-    implementation("androidx.window:window:1.4.0")
+    //implementation("androidx.window:window:1.4.0")
     //implementation("androidx.window:window-extensions:1.3.0")
-    implementation("androidx.window.extensions.core:core:1.0.0")
+    //implementation("androidx.window.extensions.core:core:1.0.0")
 
     implementation(androidx.bundles.lifecycle)
 
