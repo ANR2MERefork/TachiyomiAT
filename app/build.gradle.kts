@@ -209,6 +209,9 @@ dependencies {
     implementation(androidx.viewpager)
     implementation(androidx.profileinstaller)
 
+    implementation(androidx.window:window)
+    implementation(androidx.window:window-extensions)
+
     implementation(androidx.bundles.lifecycle)
 
     // Job scheduling
