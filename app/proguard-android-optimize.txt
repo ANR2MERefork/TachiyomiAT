@@ -32,3 +32,5 @@
 -keepclasseswithmembers class * {
     @androidx.annotation.Keep <init>(...);
 }
+
+-keep class androidx.window.extensions.** { *; }
