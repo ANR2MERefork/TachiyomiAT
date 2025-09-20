@@ -580,6 +580,10 @@ class MangaScreenModel(
                     manga.title,
                     manga.source,
                 )
+                // TODO: Only auto-translate when "Translate After Downloading" is enabled
+                if (translationState == Translation.State.NOT_TRANSLATED ) {
+                    translationManager.translateChapter(manga, chapter)
+                }
             }
 
             ChapterList.Item(
